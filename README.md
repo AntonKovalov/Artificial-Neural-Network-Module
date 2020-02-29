@@ -10,12 +10,14 @@ class ANN(learning_rate = ) - is a ready artificial that allows for simple predi
 
 ____________________________________________________________________________________________________________________
 
-1) create an instance of *ANN()* with the *learning_rate* parameter included
+1) create an instance of *ANN(learning_rate=)* with the *learning_rate* parameter
 
-2) start the learning process with calling *train(X,Y,batches,epochs)* method<br />
+2) compile your ANN calling *compile_(dim=[...])* and providing dimension array as an argument
+
+3) start the learning process with calling *train(X,Y,batches,epochs)* method<br />
   X - training matrix of features<br />
   Y - training vector of values<br />
   batches - creates a subset of training set to learn faster<br />
   epochs - the amount of itterations over the training set to complete learning
 
-3) prediction step requires calling the *predict(x_test,y_test)* method
+4) prediction step requires calling the *predict(x_test,y_test)* method
