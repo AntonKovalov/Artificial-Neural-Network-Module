@@ -4,7 +4,7 @@ This class allows to create ANN with a single hidden layer
 class ANN(learning_rate = ) - is a ready artificial that allows for simple predictions. Due to lack of opimization algorithms in the code it does not perform effectively on large data sets. 
 
 
--->Checked on:<br />
+--> Checked on:<br />
 **MNIST handwritten digit recognition:**<br />
 **Iris classification**
 
