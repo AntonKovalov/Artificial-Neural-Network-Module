@@ -9,10 +9,10 @@ ________________________________________________________________________________
 
 1) create an instance of *ANN()* with the *learning_rate* parameter included
 
-2)start the learning process with calling *train(X,Y,batches,epochs)* method<br />
+2) start the learning process with calling *train(X,Y,batches,epochs)* method<br />
   X - training matrix of features
   Y - training vector of values
   batches - under development now (recommend to use batches = 1)
   epochs - the amount of itterations over the training set to complete learning
 
-3)prediction step requires calling the *predict(x_test,y_test)* method
+3) prediction step requires calling the *predict(x_test,y_test)* method
