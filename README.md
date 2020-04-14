@@ -5,7 +5,7 @@ class ANN(learning_rate = ) - is a ready artificial neaural network that allows 
 
 
 --> Checked on:<br />
-**MNIST handwritten digit recognition:**<br />
+**MNIST handwritten digit recognition**<br />
 **Iris classification**
 
 ____________________________________________________________________________________________________________________
